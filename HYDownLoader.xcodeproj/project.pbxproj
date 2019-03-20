@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D79DC9F223FEA4E00FDB40A /* HYFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D79DC9E223FEA4E00FDB40A /* HYFileTool.m */; };
 		5DD89E02223FE34D00081406 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD89E01223FE34D00081406 /* AppDelegate.m */; };
 		5DD89E05223FE34D00081406 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD89E04223FE34D00081406 /* ViewController.m */; };
 		5DD89E08223FE34D00081406 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD89E06223FE34D00081406 /* Main.storyboard */; };
 		5DD89E0A223FE34E00081406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DD89E09223FE34E00081406 /* Assets.xcassets */; };
 		5DD89E0D223FE34E00081406 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD89E0B223FE34E00081406 /* LaunchScreen.storyboard */; };
 		5DD89E10223FE34E00081406 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD89E0F223FE34E00081406 /* main.m */; };
+		5DD89E18223FE36D00081406 /* HYDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD89E17223FE36D00081406 /* HYDownLoader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D79DC9D223FEA4E00FDB40A /* HYFileTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYFileTool.h; sourceTree = "<group>"; };
+		5D79DC9E223FEA4E00FDB40A /* HYFileTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYFileTool.m; sourceTree = "<group>"; };
 		5DD89DFD223FE34D00081406 /* HYDownLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYDownLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD89E00223FE34D00081406 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5DD89E01223FE34D00081406 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		5DD89E0C223FE34E00081406 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DD89E0E223FE34E00081406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DD89E0F223FE34E00081406 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DD89E16223FE36D00081406 /* HYDownLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYDownLoader.h; sourceTree = "<group>"; };
+		5DD89E17223FE36D00081406 /* HYDownLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYDownLoader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,10 @@
 			children = (
 				5DD89E00223FE34D00081406 /* AppDelegate.h */,
 				5DD89E01223FE34D00081406 /* AppDelegate.m */,
+				5D79DC9D223FEA4E00FDB40A /* HYFileTool.h */,
+				5D79DC9E223FEA4E00FDB40A /* HYFileTool.m */,
+				5DD89E16223FE36D00081406 /* HYDownLoader.h */,
+				5DD89E17223FE36D00081406 /* HYDownLoader.m */,
 				5DD89E03223FE34D00081406 /* ViewController.h */,
 				5DD89E04223FE34D00081406 /* ViewController.m */,
 				5DD89E06223FE34D00081406 /* Main.storyboard */,
@@ -142,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DD89E05223FE34D00081406 /* ViewController.m in Sources */,
+				5DD89E18223FE36D00081406 /* HYDownLoader.m in Sources */,
 				5DD89E10223FE34E00081406 /* main.m in Sources */,
+				5D79DC9F223FEA4E00FDB40A /* HYFileTool.m in Sources */,
 				5DD89E02223FE34D00081406 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
